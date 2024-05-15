@@ -69,7 +69,7 @@ a:hover{
     background-color:#f17fd3;
 }
 
-.texto{
+h1{
 
     animation: animar-texto 4s ease-in-out infinite;
 
