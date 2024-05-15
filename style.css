@@ -68,24 +68,15 @@ transition: background-color 0.3s ease;
 a:hover{
     background-color:#f17fd3;
 }
-h1{
-display: flex;
-white-space: nowrap;
-overflow: hidden;
-animation: slideIn 5s steps(10) forwards;
-text-align: center;
-align-items: center;
-height: 100vh;
-margin: 0;
-font-size: 50px;
-font-family: Arial, Helvetica, sans-serif;
-color: blanchedalmond;
 
-}
-@keyframes slideIn{
+.texto{
 
-from {width: 0;}
-to {width: 100%;}
+
+
+
+
+
+    
 }
 
 
