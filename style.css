@@ -71,12 +71,39 @@ a:hover{
 
 .texto{
 
+    animation: animar-texto 4s ease-in-out infinite;
+
+font-size: 8rem;
+text-align: center;
+color: transparent;
+background-size: cover;
+background-clip: text;
+-webkit-background-clip: text;
+background-image:url("c:\Users\juand\OneDrive\Escritorio\fondo-abstracto-lineas-onduladas-colores-varios-colores_444390-9467.avif");
 
 
 
+}
+@keyframes animar-texto {
+    0%{
 
+background-position: left top;
 
-    
+    }
+    25%{
+        background-position: right bottom;
+    }
+    50%{
+        background-position: left bottom;
+    }
+    75%{
+
+        background-position: right top;
+
+    }
+    100%{
+        background-color: left bottom;
+    }
 }
 
 
